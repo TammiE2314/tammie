@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+
+
+}
+    .last,.last td{
+        border:3px solid rgb(43, 129, 158);
+    }
+    .last td{
+        text-align: center;
+        background-color: lightblue;
+        padding: 2px;
+        vertical-align: center;
+
+    }
+.last{
+        border-collapse: collapse;
+       
+
+    }
+    h2{
+    color:coral;
+}
+    p{
+    color:darkgreen;
+    font-size: 32px;
+}
+ol, ul {
+    padding-left: 40px; /* 恢复默认的左内边距，让序号有足够的空间显示 */
+    margin: 10px 0; /* 根据需要设置上下外边距 */
+}
+/*header,section,footer {
+    background-color: rgb(237, 246, 215);
+    border:5px #4b5c51 dashed;
+    padding: 30px;
+    margin: 10px;
+}*/
+/*
+main ol {
+    list-style-type: upper-alpha; /* 有序列表显示大写字母序号 
+}*/
+/*
+main ul {
+    list-style-type: disc; /* 无序列表显示圆点项目符号 
+}*/
+header{
+    background-color: rgb(57, 63, 56);
+    height: 80px;
+    width: 100%;
+}
+h1{
+    color: antiquewhite;
+    
+}
+header p{
+    color: antiquewhite;
+    background-color: #4b5c51;
+}
+header a{
+    color:rgb(188, 203, 178);
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:80px;
+}
+header li{
+    color: antiquewhite;
+    display:inline;
+    margin-right:4vw;
+}
